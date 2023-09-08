@@ -1,2 +1,2 @@
 # Gabrielle Kottke MART341-WebDesign
-Repository for Module 2 Introduction to Web Design Homework
+Repository for Introduction to Web Design Homework
