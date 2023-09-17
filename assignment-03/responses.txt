@@ -1,1 +1,3 @@
 I enjoy writing but not without a purpose.
+Using a text editor is often a much faster way to perform simple edits.
+Relative Urls may be more convenient due to being shorter in length but must be a link in the same path as my page. An absolute URL will have all necessary aspects to ensure the user reaches the link but is more cumbersome.
