@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> To The Last Drop</title>
+    <!-- Define characterset used-->
+    <meta charset="UTF-8">
+    <!-- Define page description-->
+    <meta name="description" content="A page for wine podcast: To the Last Drop">
+    <!-- Define information about author-->
+    <meta name="author" content="Gabby Kottke">
+    <!-- other meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style elements for body and table-->
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            background-color: papayawhip;
+            color: maroon;
+        }
+
+        table {
+            border: 1px solid maroon; 
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/photo-1597043851759-3b383a6d1c14.jpeg" width="500" height="333.5" alt="Wine Glass" title="Wine Glass">
+    <h1> To the Last Drop </h1>
+    <p>Welcome to the world of wine. Our podcast will help familiarize you with all of the beautiful grapes Italy has to offer. Tune in for our first episode and please let us know if there's anything you would like to hear about from us.</p>
+
+    <p>
+        <table>
+            <tr>
+                <th>Episode #</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sangiovese</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pinot Grigio</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nebbiolo</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Garganega</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Corvina</td>
+            </tr>  
+        </table>
+    </p>
+    <form method="post" action="index.html">
+        Name:<br />
+        <input type="text" id="name" placeholder="enter your name" autofocus>
+        <h2>Recommendations:</h2>
+        <pr></pr>
+        comments<br />
+        <textarea name="comments" id="comments" rows="10" col="30">What wine grapes would you like to see covered?</textarea>
+        <p></p>
+       <br />
+        <pr></pr>
+        Subscribe to our podcast?
+        Yes&nbsp;<input type="radio" name="podcast" type="podcast" value="yes">
+        No&nbsp;<input type="radio" name="podcast" type="podcast" value="no">
+        </br>
+        <input type="submit" name="subscribe" value="Subscribe" />
+        <a href="mailto:tothelastdrop@gmail.com">send an email</a>
+    </form> 
+</body>
+</html>
