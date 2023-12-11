@@ -1,11 +1,6 @@
-// app.js
-// Add your JavaScript code, including canvas drawing logic, here
 document.addEventListener('DOMContentLoaded', function () {
-    // Canvas drawing logic
     const canvas = document.getElementById('geometricCanvas');
     const ctx = canvas.getContext('2d');
-  
-    // Draw a simple geometric design
     ctx.fillStyle = 'lightblue';
     ctx.fillRect(50, 50, 300, 200);
   
