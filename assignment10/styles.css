@@ -35,15 +35,10 @@ body {
     opacity: 0.9;
 }
 
-.image-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.image-container img {
-    max-width: 100%;
+.content-section img {
+    width: 50%;
     height: auto;
-    border-radius: 8px
+    border-radius: 8px; 
 }
 
 .footer {
